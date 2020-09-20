@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #464f54;
+}
+/* =========== header =========== */
+.header {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.header-top {
+  color: #fff;
+  background-color: #181818;
+  padding: 40px;
+  padding-right: 0;
+}
+.header-label,
+.author {
+  font-family: 'Proxima Nova';
+  letter-spacing: 2px;
+  display: block;
+  text-transform: uppercase;
+}
+.header-label {
+  color: #656565;
+}
+
+.header-wrapper {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 650px;
+  
+}
+
+.header-input {
+  font-family: 'Playfair Display';
+  display: block;
+  font-size: 36px;
+  outline: none;
+  width: 100%;
+  color: #fff;
+  background-color: #181818;
+  border-width: 0px;
+  border-bottom: 3px solid #303030;
+  padding: 10px;
+  padding-left: 0;
+  padding-top: 0;
+  text-transform: capitalize;
+}
+.header-bottom {
+  position: absolute;
+  right: 0;
+  background-color: #FBC02D;
+  padding: 20px 160px 20px 30px;
+  -moz-user-select: none; 
+  -khtml-user-select: none;
+  user-select: none;  
+}
+.icon {
+  display: inline-block;
+  color: #fff;
+  font-size: 26px;
+  margin-left: 10px;
+  opacity: .5;
+  transition: opacity .1s ease-in;
+  position: relative;
+  cursor: pointer;
+}
+.check {
+  display: none;
+  
+}
+.check:checked + .icon {
+  opacity: 1;
+}
+.icon:hover {
+  opacity: 0.65;;
+}
+/* ========= main ========= */
+
+.main {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  top: 130px;
+  z-index: -1;
+  padding: 40px;
+}
+
+.main-content {
+  margin-top: -40px;
+  margin-bottom: -40px;
+  padding: 40px;
+  padding-top: 180px;
+  border-left: 2px solid #e8eced;
+}
+.author {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #b5b5b5;
+}
+.title {
+  font-family: 'Futura PT';
+  font-size: 70px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+}
+.main-text,
+.subtitle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtitle {
+  color: #8f8f8f;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+}
+.main-text {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 32px;
+}
